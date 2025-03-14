@@ -20,7 +20,8 @@ void enter_a() {
 }
 
 void enter_b() {
-    throw unimplemented; // TODO implement me
+    cout << "Enter b: " << endl;
+    cin >> b;
 }
 
 void get_reminder() {
