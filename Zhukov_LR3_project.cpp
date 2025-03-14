@@ -25,7 +25,7 @@ void enter_b() {
 }
 
 void get_reminder() {
-    throw unimplemented; // TODO implement me
+    cout << "Reslut: " << a % b << endl;
 }
 
 void get_result() {
