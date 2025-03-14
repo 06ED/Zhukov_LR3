@@ -51,6 +51,19 @@ int main() {
         {4, MenuItem("Получить результат от деления b на а", get_result)},
     };
 
+    while (true)
+    {
+
+        int choice;
+        cout << "Menu: " << endl;
+        for (const auto &[index, value] : menu) {
+            cout << "Task " << index << ": " << value.title << endl;
+        }
+        cin >> choice;
+
+        menu[choice].callback();
+    }
+    
 
     return 0;
 }
