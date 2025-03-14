@@ -12,8 +12,11 @@ class UnimplementedExeption: public exception
   }
 } unimplemented;
 
+int a, b;
+
 void enter_a() {
-    throw unimplemented; // TODO implement me
+    cout << "Enter a:" << endl;
+    cin >> a;
 }
 
 void enter_b() {
