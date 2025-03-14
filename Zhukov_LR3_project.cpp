@@ -29,7 +29,7 @@ void get_reminder() {
 }
 
 void get_result() {
-    throw unimplemented; // TODO implement me
+    cout << "Result" << b / a << endl;
 }
 
 struct MenuItem {
